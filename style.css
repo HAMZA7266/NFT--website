@@ -1,0 +1,173 @@
+.main_nav{
+    border: 1px solid black;
+    width: 980px;
+    height: 60px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 220px;
+    background: #480087;
+
+
+}
+.imgofnft{
+    width: 40px;
+    height: 30px;
+}
+.wrap{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 6px solid #fff;
+
+}
+.wrap img{
+   height: 100%;
+   width: 100%;
+   border-radius: 50%;
+filter: grayscale(100%);
+   transition: 0.5s ease;
+   cursor: pointer;
+
+}
+.wrap img:hover{
+transform: scale(1.3);
+filter: grayscale(0%);
+}
+.topwork{
+    display: flex;
+}
+.maintext{
+    margin-top: 200px;
+    
+}
+
+/* .heading{
+    text-align: center;
+    font-size: 50px;
+} */
+.text_nav{
+/* margin-top: 200px; */
+  display: flex;
+    justify-content: center;
+}
+.text_nav1{
+
+  display: flex;
+    justify-content: center;
+    
+}
+.colourofnft{
+    color: #480087;
+}
+.topseller{
+    margin-top: 300px;
+    margin-left:40px ;
+}
+.seller1{
+    border: 3px solid #480087;
+    height: 300px;
+    width: 300px;
+    margin-left: 40px;
+}
+.seller1 img{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    margin-left: 45px;
+}
+.sellerstext{
+    font-size: 25px;
+    margin-left: 85px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.share{
+    margin-left: 90px;
+    font-size: 20px;
+    color: rgb(154, 154, 154);
+}
+.share:hover{
+    color:#480087;
+    cursor:pointer;
+}
+.plus{
+    margin-left: 50px;
+    font-size: 20px;
+    color: rgb(154, 154, 154);  
+}
+.plus:hover{
+    color:#480087;
+    cursor:pointer;
+    /* border: 1px solid #480087;
+    border-spacing: 20px; */
+}
+.sellers{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.gap{
+    height: 200px;
+   
+}
+.nfthead{
+    display: flex;
+    justify-content: center;
+
+}
+.hoveref:hover{
+    transform: scale(1.1);
+transition: ease-in 0.2s;
+    overflow: hidden;
+cursor: pointer;
+}
+.color:hover{
+    background-color: #480087;
+    transition: 0.1s ease;
+    transform: scale(1.1);
+    
+
+}
+.color{
+    background-color: #000000;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+}
+.per_design{
+    display: flex;
+    justify-content: space-around;
+}
+.per_design1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.6s ease;
+}
+.monkytest{
+    margin-left: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.footerm{
+display: flex;
+margin-top: 90px;
+background-color: #130023;
+}
+@media only screen and (max-width: 1613px) {
+    .topwork{
+        width: 1600px;
+    }
+
+  }
+
+@media only screen and (max-width: 1406px) {
+    .topwork{
+        width: 1600px;
+    }
+
+  }
+  
